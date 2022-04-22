@@ -36,7 +36,7 @@ html{
 
 .navbar ul{
     list-style: none;
-    text-align: right;
+    text-align: center;
 
 }
 .navbar ul li{
@@ -54,5 +54,114 @@ html{
     color: rgb(13, 6, 117);
 }
 
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.body{
+    background: rgb(255, 99, 71);
+}
 
+#contenedor img{
+    width: 100%;
+}
+.primero{
+    padding: 2%;
+}
 
+.segundo{
+    padding: 2%;
+}
+.tercero{
+    padding: 2%;
+}
+
+.footer{
+    margin-top: 25px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+
+.data{
+    background: rgb(40, 155, 190);
+    color: black;
+    list-style: none;
+    margin-top: 10px;
+}
+.map{
+    margin-top: 10px;
+    width: 60%;
+}
+
+@media screen and (min-width: 660px) and (max-width:989px){
+
+    .body{
+        background: yellow;
+    }
+    .logo{width: 100%;
+    text-align: center;
+    }
+    .banner-top{
+        display: none;
+    }
+    .primero{
+        width: 100%;
+    }
+    .primero figure{
+        height: 300px;
+        overflow: hidden;
+    }
+    .segundo{
+        width: 50%;
+
+    }
+    .tercero{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(42, 170, 221);
+    }
+
+}
+/*
+media quieris de bootstrap 
+ */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
